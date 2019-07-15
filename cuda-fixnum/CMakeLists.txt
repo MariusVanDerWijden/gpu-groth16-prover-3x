@@ -6,7 +6,7 @@ set(EXECUTABLE_OUTPUT_PATH "${PROJECT_BINARY_DIR}/bin")
 
 # CUDA
 find_package(CUDA REQUIRED)
-set(CUDA_ARCH_LIST Auto CACHE LIST
+set(CUDA_ARCH_LIST Pascal CACHE LIST
     "List of CUDA architectures (e.g. Pascal, Volta, etc) or \
      compute capability versions (6.1, 7.0, etc) to generate code for. \
      Set to Auto for automatic detection (default)."
